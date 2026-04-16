@@ -17,3 +17,35 @@ I am also exploring Infrastructure as Code using Terraform, improving code quali
  - 🔍 Code Quality (SonarQube)
  - 📊 Monitoring & Logging (Datadog)
 ---
+# 🔹 DevOps Workflow Overview
+```sh
+Code → Build → Test → Quality Check → Deploy → Monitor → Feedback
+```
+---
+# 🔹 Tools & Technologies Used 🛠️
+🔧 Version Control
+ - Git, GitHub, GitLab
+⚙️ CI/CD
+ - Jenkins
+ - GitHub Actions
+ - GitLab CI/CD
+ 🐳 Containerization & Orchestration
+ - Docker
+ - Kubernetes
+ 🏗️ Infrastructure as Code
+ - Terraform
+🔍 Code Quality & Security
+ - SonarQube
+📊 Monitoring & Logging
+ - Datadog
+☁️ Cloud (Learning)
+ - AWS
+---
+
+# 🔹 Learning Goals 🎯
+ - Build automated CI/CD pipelines
+ - Deploy applications using Docker & Kubernetes
+ - Manage infrastructure using Terraform
+ - Implement monitoring and logging systems
+ - Improve code quality using SonarQube
+ - Become job-ready for DevOps/Cloud roles
