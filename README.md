@@ -25,21 +25,28 @@ Code → Build → Test → Quality Check → Deploy → Monitor → Feedback
 # 🔹 Tools & Technologies Used 🛠️
 🔧 **Version Control**
  - Git, GitHub, GitLab
+
 ⚙️ **CI/CD**
  - Jenkins
  - GitHub Actions
  - GitLab CI/CD
+
 🐳 **Containerization & Orchestration**
  - Docker
  - Kubernetes
+
 🏗️ **Infrastructure as Code**
  - Terraform
+
 🔍 **Code Quality & Security**
  - SonarQube
+
 📊 **Monitoring & Logging**
  - Datadog
+
 ☁️ **Cloud (Learning)**
  - AWS
+
 ---
 
 # 🔹 Learning Goals 🎯
