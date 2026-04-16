@@ -61,7 +61,6 @@ Code → Build → Test → Quality Check → Deploy → Monitor → Feedback
 # 🔹 Badges (Optional)
 
 ![Git](https://img.shields.io/badge/Git-Version_Control-orange)
-
 ![GitHub](https://img.shields.io/badge/GitHub-Code_Hosting-black)
 
 ![GitLab](https://img.shields.io/badge/GitLab-CI/CD-orange)
