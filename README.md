@@ -23,22 +23,22 @@ Code → Build → Test → Quality Check → Deploy → Monitor → Feedback
 ```
 ---
 # 🔹 Tools & Technologies Used 🛠️
-🔧 Version Control
+🔧 **Version Control**
  - Git, GitHub, GitLab
-⚙️ CI/CD
+⚙️ **CI/CD**
  - Jenkins
  - GitHub Actions
  - GitLab CI/CD
- 🐳 Containerization & Orchestration
+ 🐳 **Containerization & Orchestration**
  - Docker
  - Kubernetes
- 🏗️ Infrastructure as Code
+ 🏗️ **Infrastructure as Code**
  - Terraform
-🔍 Code Quality & Security
+🔍 **Code Quality & Security**
  - SonarQube
-📊 Monitoring & Logging
+📊 **Monitoring & Logging**
  - Datadog
-☁️ Cloud (Learning)
+☁️ **Cloud (Learning)**
  - AWS
 ---
 
@@ -49,3 +49,4 @@ Code → Build → Test → Quality Check → Deploy → Monitor → Feedback
  - Implement monitoring and logging systems
  - Improve code quality using SonarQube
  - Become job-ready for DevOps/Cloud roles
+---
