@@ -39,6 +39,17 @@ Version Control is a system that helps track and manage changes to files or code
 2. Centralized VCS
 3. Distributed VCS
 
+     +-----------+      +-----------+      +-----------+
+     |  Dev1     |      |  Dev2     |      |  Dev3     |
+     | Full Repo |      | Full Repo |      | Full Repo |
+     +-----+-----+      +-----+-----+      +-----+-----+
+           \                 |                 /
+            \                |                /
+             \               |               /
+              +-----------------------------+
+              |     Remote Repository       |
+              |   (GitHub / GitLab)        |
+              +-----------------------------+
 
 ## Difference Between Centralized VCS and Distributed VCS
 
