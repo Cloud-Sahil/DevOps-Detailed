@@ -18,6 +18,23 @@ The main goal of DevOps is to:
  - Application → Banking App, Instagram
    
 ## 🔹 What is an Application?
+An application is a **user-facing program** that performs specific tasks like:
+ - Online shopping
+ - Social media
+ - Banking
+
+It usually includes:
+ - Frontend (UI)
+ - Backend (logic)
+ - Database
+
+## 🔹 Types of Applications
+ - Web Applications (browser-based)
+ - Mobile Applications (Android/iOS)
+ - Desktop Applications
+ - Cloud-native Applications
+
+
 
 ---
 
