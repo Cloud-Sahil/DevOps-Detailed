@@ -37,6 +37,7 @@ Version Control is a system that helps track and manage changes to files or code
 ## Types of Version Control Systems
 1. Local VCS
 2. Centralized VCS
+
            +---------------------+
            |   Central Server    |
            |   (Main Repo)       |
