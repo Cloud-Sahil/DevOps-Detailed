@@ -34,7 +34,80 @@ It usually includes:
  - Desktop Applications
  - Cloud-native Applications
 
+## 🔹 What is SDLC (Software Development Life Cycle)?
 
+SDLC is a structured process used to develop software step-by-step.
+
+## 📌 SDLC Phases:
+1. Requirement Gathering
+2. Design
+3. Development
+4. Testing
+5. Deployment
+6. Maintenance
+
+## 🔹 SDLC Models
+Different approaches to follow SDLC:
+ - **Waterfall Model** → Linear, step-by-step
+ - **Agile Model** → Iterative and flexible
+ - **Spiral Model** → Risk-driven
+ - **V-Model** → Testing-focused
+
+## 🔹 Environments in DevOps
+Different stages where application runs:
+ - **Development (Dev)** → Developers build code
+ - **Testing (QA)** → Test application
+ - **Staging (UAT)** → Production-like testing
+ - **Production (Prod)** → Live users use the app
+
+## 🔹 DevOps Lifecycle
+```sh
+Plan → Code → Build → Test → Release → Deploy → Operate → Monitor
+```
+## 🔹 DevOps Lifecycle Explanation
+ - Plan → Define requirements
+ - Code → Write application code
+ - Build → Compile & package code
+ - Test → Run automated tests
+ - Release → Prepare for deployment
+ - Deploy → Push to servers/cloud
+ - Operate → Run application
+ - Monitor → Track performance
+
+## 🔹 DevOps Tools (Detailed)
+
+🔧 **Version Control**
+ - Git → Track code changes
+ - GitHub / GitLab → Store repositories
+
+⚙️ **CI/CD Tools**
+ - Jenkins → Automate build & deploy
+ - GitHub Actions → Workflow automation
+ - GitLab → Built-in CI/CD
+
+🐳 **Containerization**
+ - Docker → Package applications
+
+☸️**Orchestration**
+ - Kubernetes → Manage containers
+
+🏗️ **Infrastructure as Code**
+ - Terraform → Automate infrastructure
+
+🔍 **Code Quality**
+ - SonarQube → Analyze code
+
+📊 **Monitoring & Logging**
+ - Datadog → Monitor apps
+ - Grafana → Dashboards
+
+## 🔹 Types of DevOps Practices
+ - Continuous Integration (CI)
+ - Continuous Delivery (CD)
+ - Continuous Deployment
+ - Infrastructure as Code (IaC)
+ - Monitoring & Logging
+ - Microservices Architecture
 
 ---
 
