@@ -38,17 +38,16 @@ Version Control is a system that helps track and manage changes to files or code
 1. Local VCS
 2. Centralized VCS
 
-           +---------------------+
-           |   Central Server    |
-           |   (Main Repo)       |
-           +----------+----------+
-                      |
-        ---------------------------------
-        |               |               |
-     +------+       +------+       +------+
-     | Dev1 |       | Dev2 |       | Dev3 |
-     +------+       +------+       +------+
-
+              +----------------------+
+              |   Central Repository |
+              |      (Server)        |
+              +----------+-----------+
+                         |
+          -----------------------------------
+          |                |                |
+       +------+        +------+        +------+
+       | Dev1 |        | Dev2 |        | Dev3 |
+       +------+        +------+        +------+
    
 **3. Distributed VCS**
 
