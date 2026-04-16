@@ -29,8 +29,8 @@ Version Control is a system that helps track and manage changes to files or code
  - Enables team collaboration
  - Helps restore older versions
  - Prevents conflicts during development
-**Example:**
 
+**Example:**
  - Git → A distributed version control system used for managing source code.
  - GitHub → A cloud platform to host Git repositories for collaboration.
 
