@@ -15,11 +15,30 @@ Working Directory → Staging Area → Local Repository → Remote Repository
 
 ---
 
-
 # Introduction to SCM (Source Code Management) Tool
 
 ## What is SCM?
 SCM (Source Code Management) is the practice of tracking and managing changes to software code. It helps developers collaborate, maintain code versions, and ensure consistency across a project.
+
+# Version Control
+**Definition:**
+Version Control is a system that helps track and manage changes to files or code over time. It allows multiple developers to collaborate, view history, and revert to previous versions if needed.
+
+**Use:**
+ - Keeps track of code changes
+ - Enables team collaboration
+ - Helps restore older versions
+ - Prevents conflicts during development
+**Example:**
+
+ - Git → A distributed version control system used for managing source code.
+ - GitHub → A cloud platform to host Git repositories for collaboration.
+
+## Types of Version Control Systems
+1. Local VCS
+2. Centralized VCS
+3. Distributed VCS
+
 
 ## Difference Between Centralized VCS and Distributed VCS
 
@@ -31,8 +50,24 @@ SCM (Source Code Management) is the practice of tracking and managing changes to
 | Speed            | Slower (relies on central server) | Faster (local operations) |
 | Collaboration     | Requires network access | Can work offline and push later |
 
+## Version Control System Terminologies
+| Term            | Description                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| Repository (Repo) | A storage location where all project files and history are kept.          |
+| Commit          | A snapshot of your changes saved in the repository.                         |
+| Branch          | A separate line of development allowing parallel work.                      |
+| Merge           | Combines changes from one branch into another.                              |
+| Clone           | Creates a local copy of a remote repository.                                |
+| Push            | Uploads local commits to a remote repository.                               |
+| Pull            | Fetches and integrates changes from remote to local.                        |
+| Fork            | A personal copy of someone else's repository on your account.               |
+| Remote          | The version of the repository hosted online (like on GitHub).               |
+| Checkout        | Switches between branches or versions in a repository.                      |
+| HEAD            | A pointer that shows the current branch or commit you’re working on.        |
 
 
+
+---
 # Installing Git CLI
 ### Windows:
 1. Download Git from [git-scm.com](https://git-scm.com/downloads)
