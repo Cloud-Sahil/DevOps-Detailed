@@ -74,6 +74,6 @@ Code → Build → Test → Quality Check → Deploy → Monitor → Feedback
 
 ---
 
-<img width="1000" height="800" alt="image" src="https://github.com/user-attachments/assets/9ac5c176-1a5a-4ee6-ad32-d8fdcddeae4c" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/9ac5c176-1a5a-4ee6-ad32-d8fdcddeae4c" />
 
 ---
