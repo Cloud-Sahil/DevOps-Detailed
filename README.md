@@ -73,3 +73,7 @@ Code → Build → Test → Quality Check → Deploy → Monitor → Feedback
 ![Datadog](https://img.shields.io/badge/Datadog-Monitoring-blue)
 
 ---
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9ac5c176-1a5a-4ee6-ad32-d8fdcddeae4c" />
+
+---
