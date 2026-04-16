@@ -29,10 +29,10 @@ Code → Build → Test → Quality Check → Deploy → Monitor → Feedback
  - Jenkins
  - GitHub Actions
  - GitLab CI/CD
- 🐳 **Containerization & Orchestration**
+🐳 **Containerization & Orchestration**
  - Docker
  - Kubernetes
- 🏗️ **Infrastructure as Code**
+🏗️ **Infrastructure as Code**
  - Terraform
 🔍 **Code Quality & Security**
  - SonarQube
