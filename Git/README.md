@@ -48,6 +48,7 @@ Version Control is a system that helps track and manage changes to files or code
      +------+       +------+       +------+
      | Dev1 |       | Dev2 |       | Dev3 |
      +------+       +------+       +------+
+
    
 **3. Distributed VCS**
 
