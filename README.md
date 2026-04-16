@@ -59,7 +59,7 @@ Code → Build → Test → Quality Check → Deploy → Monitor → Feedback
 ---
 
 # 🔹 Badges (Optional)
-```sh
+
 ![Git](https://img.shields.io/badge/Git-Version_Control-orange)
 ![Docker](https://img.shields.io/badge/Docker-Containers-blue)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-blueviolet)
@@ -67,5 +67,5 @@ Code → Build → Test → Quality Check → Deploy → Monitor → Feedback
 ![SonarQube](https://img.shields.io/badge/SonarQube-Code_Quality-green)
 ![Datadog](https://img.shields.io/badge/Datadog-Monitoring-red)
 ![CI/CD](https://img.shields.io/badge/CI/CD-Automation-success)
-```
+
 ---
