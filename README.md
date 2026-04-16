@@ -62,16 +62,14 @@ Code → Build → Test → Quality Check → Deploy → Monitor → Feedback
 
 ![Git](https://img.shields.io/badge/Git-Version_Control-orange)
 ![GitHub](https://img.shields.io/badge/GitHub-Code_Hosting-black)
-
 ![GitLab](https://img.shields.io/badge/GitLab-CI/CD-orange)
-![Docker](https://img.shields.io/badge/Docker-Containers-blue)
 
+![Docker](https://img.shields.io/badge/Docker-Containers-blue)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-blueviolet)
 ![Jenkins](https://img.shields.io/badge/Jenkins-Automation-red)
 
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-purple)
 ![SonarQube](https://img.shields.io/badge/SonarQube-Code_Quality-green)
-
 ![Datadog](https://img.shields.io/badge/Datadog-Monitoring-blue)
 
 ---
