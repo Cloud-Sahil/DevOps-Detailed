@@ -13,10 +13,10 @@
  - **Use Case:** Dynamically increases or decreases cluster size.
 ---
 ### Create the Horizontal Pod Autoscaler
-```sh
+```hcl
 nano hpa.yaml
 ```
-```sh
+```hcl
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
@@ -37,11 +37,10 @@ spec:
         averageUtilization: 50
 ```
 ### Apply HPA
-```sh
+```hcl
 kubectl apply -f hpa.yaml
 ```
-### Verify the HPA
-```sh
+```hcl
 kubectl get hpa
 ```
 ---
