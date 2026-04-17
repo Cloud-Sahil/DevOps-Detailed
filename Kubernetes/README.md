@@ -110,6 +110,14 @@ Worker nodes run the application containers.
 | **NetworkPolicy**   | Controls network traffic between pods       |
 
 ---
+
+## Kubernetes Architecture Summary
+ - **Control Plane (Master Node)**: Manages cluster state
+ - **Worker Node**: Runs app containers in Pods
+ - **Pods**: The running units of applications
+ - **Additional Components**: ConfigMaps, Secrets, Namespaces, Ingress, etc.
+
+---
 ## Example Workflow
 1. User defines desired state → `kubectl apply -f app.yaml`
 2. **API Server** stores the intent in **etcd**
