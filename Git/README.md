@@ -1,7 +1,4 @@
-<img src="https://cdn.simpleicons.org/git" width="40" />
-
-
-# Introduction to Git
+# <img src="https://cdn.simpleicons.org/git" width="40" /> Introduction to Git
 Git is a **`Distributed Version Control System (DVCS)`** that enables efficient tracking of changes, branching, and collaboration among developers.
 
 ---
