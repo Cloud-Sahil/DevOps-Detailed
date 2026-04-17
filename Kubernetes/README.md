@@ -57,7 +57,7 @@ Kubernetes has emerged as the preferred orchestration tool for several reasons:
 5. **Resilience**: Automatic healing of failed containers and rescheduling.
 6. **Comprehensive Ecosystem**: Supported by a wide range of tools and platforms.
 ---
-## 🔹Architecture of Kubernetes
+## 🏗️ Architecture of Kubernetes
 
 
 <img width="700" height="500" alt="Kubernetes architecture overview and components" src="https://github.com/user-attachments/assets/0e68cf54-4aff-4d56-8a86-712dc1bc569d" />
