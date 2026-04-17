@@ -1,6 +1,6 @@
 # Kuberneties (K8S)
 ---
-## Introduction to Kubernetes
+## 🔹 Introduction to Kubernetes
 
 - **Kubernetes (K8s)** is an open-source **container orchestration platform** used to automate the deployment, scaling, and management of containerized applications.
 - It was originally developed by **Google** and is now maintained by the **Cloud Native Computing Foundation (CNCF)**.
@@ -17,7 +17,7 @@
 - Service discovery
 
 ---
-## Why We Need an Orchestration Tool
+## 🔹Why We Need an Orchestration Tool
 
 When applications run using **many containers**, managing them manually becomes difficult.
 
@@ -48,7 +48,7 @@ Container orchestration tools automate:
 - Apache Mesos
 
 ---
-## Why Kubernetes?
+## 🔹Why Kubernetes?
 Kubernetes has emerged as the preferred orchestration tool for several reasons:
 1. **Open Source**: Vendor-neutral and community-driven.
 2. **Scalability**: Designed to handle large-scale workloads.
@@ -57,7 +57,7 @@ Kubernetes has emerged as the preferred orchestration tool for several reasons:
 5. **Resilience**: Automatic healing of failed containers and rescheduling.
 6. **Comprehensive Ecosystem**: Supported by a wide range of tools and platforms.
 ---
-## Architecture of Kubernetes
+## 🔹Architecture of Kubernetes
 
 
 <img width="700" height="500" alt="Kubernetes architecture overview and components" src="https://github.com/user-attachments/assets/0e68cf54-4aff-4d56-8a86-712dc1bc569d" />
@@ -67,7 +67,7 @@ Kubernetes has emerged as the preferred orchestration tool for several reasons:
  - **Control Plane (Master)**: Manages cluster state and decisions.
  - **Worker Nodes**: Run actual application workloads (Pods).
 ---
-## Control Plane (Master Node)                              
+## 🔹Control Plane (Master Node)                              
 
 The control plane manages the entire cluster.               
 
@@ -80,7 +80,7 @@ The control plane manages the entire cluster.
 
 
 ---
-## Worker Node
+## 🔹Worker Node
 
 Worker nodes run the application containers.
 
@@ -92,7 +92,7 @@ Worker nodes run the application containers.
 | Pods | Smallest deployable unit in Kubernetes |
 
 ---
-## Key Kubernetes Objects & Resources
+## 🔹Key Kubernetes Objects & Resources
 | 🔧 Kubernetes Object | 📘 Description                              |
 |---------------------|---------------------------------------------|
 | **Pod**             | Smallest deployable unit (1+ containers)    |
@@ -111,14 +111,14 @@ Worker nodes run the application containers.
 
 ---
 
-## Kubernetes Architecture Summary
+## 🔹Kubernetes Architecture Summary
  - **Control Plane (Master Node)**: Manages cluster state
  - **Worker Node**: Runs app containers in Pods
  - **Pods**: The running units of applications
  - **Additional Components**: ConfigMaps, Secrets, Namespaces, Ingress, etc.
 
 ---
-## Example Workflow
+## 🔹Example Workflow
 1. User defines desired state → `kubectl apply -f app.yaml`
 2. **API Server** stores the intent in **etcd**
 3. **Scheduler** assigns pods to worker nodes
