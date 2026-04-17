@@ -62,11 +62,11 @@ Kubernetes has emerged as the preferred orchestration tool for several reasons:
 
 <img width="700" height="500" alt="Kubernetes architecture overview and components" src="https://github.com/user-attachments/assets/0e68cf54-4aff-4d56-8a86-712dc1bc569d" />
 
----
+
 **Master–Worker Pattern**
  - **Control Plane (Master)**: Manages cluster state and decisions.
  - **Worker Nodes**: Run actual application workloads (Pods).
-
+---
 ## Control Plane (Master Node)                              
 
 The control plane manages the entire cluster.               
