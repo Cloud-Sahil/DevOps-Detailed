@@ -1,4 +1,4 @@
-# Kuberneties (K8S)
+# <img src="https://cdn.simpleicons.org/kubernetes" width="40" /> Kuberneties (K8S)
 ---
 ## 🔹 Introduction to Kubernetes
 
