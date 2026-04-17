@@ -92,4 +92,30 @@ Worker nodes run the application containers.
 | Pods | Smallest deployable unit in Kubernetes |
 
 ---
+## Key Kubernetes Objects & Resources
+| 🔧 Kubernetes Object | 📘 Description                              |
+|---------------------|---------------------------------------------|
+| Pod                 | Smallest deployable unit (1+ containers)    |
+| Service             | Stable endpoint to access pods              |
+| Deployment          | Handles updates & rollout strategy          |
+| ReplicaSet          | Maintains desired number of pods            |
+| StatefulSet         | Manages stateful applications               |
+| DaemonSet           | Runs pods on all nodes                      |
+| Job                 | Executes one-time tasks                     |
+| CronJob             | Schedules recurring jobs                    |
+| ConfigMap           | Stores non-sensitive config data            |
+| Secret              | Stores sensitive data (passwords, tokens)   |
+| Namespace           | Logical cluster separation                  |
+| Ingress             | External HTTP/HTTPS routing                 |
+| NetworkPolicy       | Controls network traffic between pods       |
 
+---
+## Example Workflow
+1. User defines desired state → `kubectl apply -f app.yaml`
+2. **API Server** stores the intent in **etcd**
+3. **Scheduler** assigns pods to worker nodes
+4. **Kubelet** starts containers as per spec
+5. **Controller Manager** ensures desired number of pods
+6. **Kube-Proxy** routes network traffic properly
+
+---
