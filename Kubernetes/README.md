@@ -95,19 +95,19 @@ Worker nodes run the application containers.
 ## Key Kubernetes Objects & Resources
 | 🔧 Kubernetes Object | 📘 Description                              |
 |---------------------|---------------------------------------------|
-| Pod                 | Smallest deployable unit (1+ containers)    |
-| Service             | Stable endpoint to access pods              |
-| Deployment          | Handles updates & rollout strategy          |
-| ReplicaSet          | Maintains desired number of pods            |
-| StatefulSet         | Manages stateful applications               |
-| DaemonSet           | Runs pods on all nodes                      |
-| Job                 | Executes one-time tasks                     |
-| CronJob             | Schedules recurring jobs                    |
-| ConfigMap           | Stores non-sensitive config data            |
-| Secret              | Stores sensitive data (passwords, tokens)   |
-| Namespace           | Logical cluster separation                  |
-| Ingress             | External HTTP/HTTPS routing                 |
-| NetworkPolicy       | Controls network traffic between pods       |
+| **Pod**             | Smallest deployable unit (1+ containers)    |
+| **Service**         | Stable endpoint to access pods              |
+| **Deployment**      | Handles updates & rollout strategy          |
+| **ReplicaSet**      | Maintains desired number of pods            |
+| **StatefulSet**     | Manages stateful applications               |
+| **DaemonSet**       | Runs pods on all nodes                      |
+| **Job**             | Executes one-time tasks                     |
+| **CronJob**         | Schedules recurring jobs                    |
+| **ConfigMap**       | Stores non-sensitive config data            |
+| **Secret**          | Stores sensitive data (passwords, tokens)   |
+| **Namespace**       | Logical cluster separation                  |
+| **Ingress**         | External HTTP/HTTPS routing                 |
+| **NetworkPolicy**   | Controls network traffic between pods       |
 
 ---
 ## Example Workflow
