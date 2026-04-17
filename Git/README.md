@@ -9,9 +9,9 @@ Git is a **`Distributed Version Control System (DVCS)`** that enables efficient 
  3. **Local Repository**: Commits stored in the local .git folder.
  4. **Remote Repository**: GitHub/GitLab/Bitbucket where the code is shared.
 ---
-~~~sh
+```hcl
 Working Directory → Staging Area → Local Repository → Remote Repository
-~~~
+```
 
 ---
 
@@ -108,19 +108,19 @@ Version Control is a system that helps track and manage changes to files or code
 1. Download Git from [git-scm.com](https://git-scm.com/downloads)
 2. Install with default settings
 3. Verify installation:
-   ```sh
+   ```hcl
    git --version
    ```
 
 ### Linux:
-```sh
+```hcl
 sudo apt update
 sudo apt install git -y
 git --version
 ```
 
 ### Mac:
-```sh
+```hcl
 brew install git
 git --version
 ```
@@ -128,27 +128,27 @@ git --version
 # Git Commands (Working on Local Repo)
 
 ### Initialize a New Git Repository
-```sh
+```hcl
 git init
 ```
 This command creates a new Git repository in the current directory.
 
 ### Check the Status of Files
-```sh
+```hcl
 git status
 ```
 Shows modified and untracked files.
 
 ### Add Files to the Staging Area
-```sh
+```hcl
 git add <filename>
 ```
 To add all files:
-```sh
+```hcl
 git add .
 ```
 ### commit and add 
-```
+```hcl
 git commit -a -m "update"
 
 ```
@@ -156,25 +156,25 @@ git commit -a -m "update"
 
 
 ### Commit Changes
-```sh
+```hcl
 git commit -m "message"
 ```
 Commits the changes in the staging area with a message.
 
 ### View Commit History
-```sh
+```hcl
 git log
 ```
 Displays the commit history.
 
 ### Revert Changes (Undo a Commit)
-```sh
+```hcl
 git revert <commit-hash>
 ```
 This creates a new commit that undoes changes.
 
 ### Restore a File (Undo Local Changes)
-```sh
+```hcl
 git restore <filename>
 ```
 Restores the file to the last committed state.
@@ -220,7 +220,7 @@ A remote repository is a version of your project stored on an online platform li
 - `git push origin <branch_name>` → Pushes local commits to the remote repository
 
 ### Workflow Example
-```bash
+```hcl
 # Create a new branch
 $ git checkout -b feature-branch
 
@@ -303,7 +303,7 @@ GitHub supports authentication using **HTTPS** and **SSH**.
 ### **1. HTTPS Authentication**
 - Uses GitHub username and personal access token instead of passwords.
 - To authenticate:
-  ```sh
+  ```hcl
   git clone https://github.com/your-username/repo.git
   ```
 - Secure but requires re-entering credentials or storing them in a credential manager.
@@ -311,12 +311,12 @@ GitHub supports authentication using **HTTPS** and **SSH**.
 ### **2. SSH Authentication**
 - Uses an SSH key pair (public and private key) for secure access.
 - To set up SSH:
-  ```sh
+  ```hcl
   ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
   ```
 - Add the public key to GitHub under **Settings > SSH and GPG keys**.
 - Use SSH to clone repositories securely:
-  ```sh
+  ```hcl
   git clone git@github.com:your-username/repo.git
   ```
 
@@ -350,16 +350,16 @@ GitHub supports authentication using **HTTPS** and **SSH**.
 
 1. **Navigate to GitLab repository**
 2. **Create a new branch**
-   ```sh
+   ```hcl
    git checkout -b feature-branch
    ```
 3. **Make changes & commit**
-   ```sh
+   ```hcl
    git add .
    git commit -m "Added new feature"
    ```
 4. **Push branch to remote**
-   ```sh
+   ```hcl
    git push origin feature-branch
    ```
 5. **Create a Merge Request (MR) in GitLab**
@@ -370,29 +370,29 @@ GitHub supports authentication using **HTTPS** and **SSH**.
 ## How to Resolve Merge Conflicts in GitLab
 
 1. **Fetch the latest changes**
-   ```sh
+   ```hcl
    git fetch origin
    ```
 2. **Checkout the branch and merge**
-   ```sh
+   ```hcl
    git checkout main
    git merge feature-branch
    ```
 3. **Identify conflicts**
-   ```sh
+   ```hcl
    git status
    ```
 4. **Manually resolve conflicts in files**
 5. **Add the resolved files**
-   ```sh
+   ```hcl
    git add resolved-file.txt
    ```
 6. **Commit and complete merge**
-   ```sh
+   ```hcl
    git commit -m "Resolved merge conflicts"
    ```
 7. **Push changes to remote**
-   ```sh
+   ```hcl
    git push origin main
    ```
 
