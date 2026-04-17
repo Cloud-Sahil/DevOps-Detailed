@@ -18,7 +18,7 @@ I am also exploring Infrastructure as Code using Terraform, improving code quali
  - 📊 Monitoring & Logging (Datadog)
 ---
 # 🔹 DevOps Workflow Overview
-```sh
+```hcl
 Code → Build → Test → Quality Check → Deploy → Monitor → Feedback
 ```
 ---
