@@ -1,4 +1,4 @@
-<img src="https://cdn.simpleicons.org/git" width="30" />
+<img src="https://cdn.simpleicons.org/git" width="40" />
 
 
 # Introduction to Git
