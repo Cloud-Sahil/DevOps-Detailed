@@ -60,7 +60,7 @@ Kubernetes has emerged as the preferred orchestration tool for several reasons:
 ## Architecture of Kubernetes
 
 
-<img width="900" height="700" alt="Kubernetes architecture overview and components" src="https://github.com/user-attachments/assets/0e68cf54-4aff-4d56-8a86-712dc1bc569d" />
+<img width="700" height="500" alt="Kubernetes architecture overview and components" src="https://github.com/user-attachments/assets/0e68cf54-4aff-4d56-8a86-712dc1bc569d" />
 
 ---
 **Master–Worker Pattern**
