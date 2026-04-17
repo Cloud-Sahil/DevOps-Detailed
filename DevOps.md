@@ -61,7 +61,7 @@ Different stages where application runs:
  - **Production (Prod)** → Live users use the app
 
 ## 🔹 DevOps Lifecycle
-```sh
+```hcl
 Plan → Code → Build → Test → Release → Deploy → Operate → Monitor
 ```
 ## 🔹 DevOps Lifecycle Explanation
