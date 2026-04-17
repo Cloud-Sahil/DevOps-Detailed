@@ -1,3 +1,3 @@
-# <img src="https://cdn.simpleicons.org/sonarqube" width="40" /> Sonarqube
+# <img src="https://cdn.simpleicons.org/sonarqube" height="50" /> Sonarqube
  - Open Source
 ---
