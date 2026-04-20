@@ -110,4 +110,68 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor
  - Microservices Architecture
 
 ---
+# 🏗️ Complete DevOps Architecture
+## DevOps End-to-End Architecture Diagram
+        👨‍💻 Developer
+              |
+              ▼
+        +-------------+
+        |   Git Repo  |
+        | (GitHub /   |
+        |  GitLab)    |
+        +------+------+ 
+               |
+               ▼
+        +-------------+
+        |   CI/CD     |
+        | (Jenkins /  |
+        | GitHub CI)  |
+        +------+------+ 
+               |
+     -----------------------
+     |         |           |
+     ▼         ▼           ▼
++--------+ +--------+ +------------+
+| Build  | | Test   | | Code Scan  |
+|        | |        | | (SonarQube)|
++--------+ +--------+ +------------+
+               |
+               ▼
+        +-------------+
+        | Docker Build|
+        |   (Image)   |
+        +------+------+ 
+               |
+               ▼
+        +-------------+
+        | Push to     |
+        | Registry    |
+        | (DockerHub) |
+        +------+------+ 
+               |
+               ▼
+        +-------------+
+        | Kubernetes  |
+        | Deployment  |
+        +------+------+ 
+               |
+     -----------------------
+     |         |           |
+     ▼         ▼           ▼
++--------+ +--------+ +------------+
+|  Pods  | | Service| | Ingress    |
++--------+ +--------+ +------------+
+               |
+               ▼
+        +-------------+
+        | Monitoring  |
+        | (Datadog /  |
+        | Grafana)    |
+        +------+------+ 
+               |
+               ▼
+        🔁 Feedback Loop
+               |
+               ▼
+        👨‍💻 Developer
 
