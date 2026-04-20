@@ -172,3 +172,24 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor
                  ▼
             👨‍💻 Developer
 ```
+## 🔹 Architecture Explanation
+**1. Version Control**
+ - Code stored in Git repositories
+ - Tools: `GitHub, GitLab`
+**2. CI/CD Pipeline**
+ - Automates build, test, deployment
+ - Tools: `Jenkins, GitHub Actions`
+**3. Build & Code Quality**
+ - Compile code + run tests
+  Code scanning using `SonarQube`
+**4. Containerization**
+ - Package application using `Docker`
+**5. Container Registry**
+ - Store Docker images (Docker Hub / private registry)
+**6. Orchestration**
+ - Deploy and manage containers using `Kubernetes`
+**7. Infrastructure as Code**
+ - Automate infra using `Terraform`
+**8. Monitoring & Logging**
+ - Track performance using `Datadog` and `Grafana`
+---
