@@ -1,7 +1,7 @@
 # what is k8s?
 Kubernetes (often called K8s) is an open-source container orchestration platform used to automate deployment, scaling, and management of containerized applications.
 
-## Difference between Docker swarm Vs k8s
+# Difference between Docker swarm Vs k8s
 | Feature              | Docker Swarm 🐳              | Kubernetes ☸️                  |
 |----------------------|------------------------------|--------------------------------|
 | Setup                | Easy & quick                 | Complex                        |
@@ -15,3 +15,12 @@ Kubernetes (often called K8s) is an open-source container orchestration platform
 | Self-Healing         | Basic                        | Strong (auto-restart, reschedule) |
 | Ecosystem            | Limited                      | Huge (Helm, Istio, etc.)       |
 | Use Case             | Small projects               | Enterprise / production        |
+
+# Architecture  Docker swarm & k8s
+Docker Swarm                    Kubernetes
+--------------                  ------------------
+Manager Node                   Master Node
+   │                               │
+Worker Nodes                   Worker Nodes
+   │                               │
+Containers                     Pods (Containers)
