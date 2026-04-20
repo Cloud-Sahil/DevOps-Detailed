@@ -172,6 +172,7 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor
                  ▼
             👨‍💻 Developer
 ```
+---
 ## 🔹 Layer-wise Explanation
 **1️⃣ Source Code Management**
  - Code stored & version controlled using
