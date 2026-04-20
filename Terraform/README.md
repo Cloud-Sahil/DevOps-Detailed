@@ -40,8 +40,10 @@
   - **Terraform (IAC)** = provisioning complete infra in a controlled, declarative way.  
 
 ---
+## Terraform Fundamentals
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/f1ead3c8-439e-4ac4-a50b-8775947ea08a" />
 
-
+---
 ##  Terraform Language (Basic Syntax)
 Terraform files are written in **HCL (HashiCorp Configuration Language)**.  
 
