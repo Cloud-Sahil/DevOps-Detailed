@@ -112,8 +112,7 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor
 ---
 # 🏗️ Complete DevOps Architecture
 ## DevOps End-to-End Architecture Diagram
-
-
+```text
         👨‍💻 Developer
               │
               ▼
@@ -172,4 +171,4 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor
                  │
                  ▼
             👨‍💻 Developer
----
+```
