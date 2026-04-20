@@ -17,6 +17,7 @@ Kubernetes (often called K8s) is an open-source container orchestration platform
 | Use Case             | Small projects               | Enterprise / production        |
 
 # Architecture  Docker swarm & k8s
+```hcl
 Docker Swarm                    Kubernetes
 --------------                  ------------------
 Manager Node                   Master Node
@@ -24,3 +25,4 @@ Manager Node                   Master Node
 Worker Nodes                   Worker Nodes
    │                               │
 Containers                     Pods (Containers)
+```
