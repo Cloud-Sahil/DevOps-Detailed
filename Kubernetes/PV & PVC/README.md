@@ -13,10 +13,10 @@ Dynamic provisioning automatically creates PVs based on a PVC when a StorageClas
 ---
 ## Commands -
 ### Write `pv.yaml`
-```sh
+```hcl
 nano pv.yaml
 ```
-```sh
+```hcl
 apiVersion: v1
 kind: PersistentVolume
 metadata:
@@ -33,10 +33,10 @@ spec:
     path: "/mnt/data"
 ```
 ### Write `pvc.yaml`
-```sh
+```hcl
 nano pvc.yaml
 ```
-```sh
+```hcl
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
@@ -50,10 +50,10 @@ spec:
   storageClassName: manual
 ```
 ### Write `pod.yaml`
-```sh
+```hcl
 nano pod.yaml
 ```
-```sh
+```hcl
 apiVersion: v1
 kind: Pod
 metadata:
@@ -72,7 +72,7 @@ spec:
       claimName: pvc-example
 ```
 ### Apply pv
-```sh
+```hcl
 kubectl apply -f pv.yaml
 ```
 ### Apply pvc
@@ -80,19 +80,19 @@ kubectl apply -f pv.yaml
 kubectl apply -f pvc.yaml
 ```
 ### Apply pod
-```sh
+```hcl
 kubectl apply -f pod.yaml
 ```
 ### Check Resources pv
-```sh
+```hcl
 kubectl get pv
 ```
 ### Check Resources pvc
-```sh
+```hcl
 kubectl get pvc
 ```
 ### Check Resources pod
-```sh
+```hcl
 kubectl get pods
 ```
 ### Storage path PV
@@ -100,7 +100,7 @@ kubectl get pods
 mkdir -p /mnt/data
 ```
 ### Describe Pods
-```sh
+```hcl
 kubectl describe pods
 ```
 ### Describe PV
@@ -108,61 +108,61 @@ kubectl describe pods
 kubectl describe pv
 ```
 ### Describe PVC
-```sh
+```hcl
 kubectl describe pvc
 ```
 ### Describe Pod `mypod`
-```sh
+```hcl
 kubectl describe pod mypod
 ```
 ### Access Pod
-```sh
+```hcl
 kubectl exec -it mypod -- sh
 ```
-```sh
+```hcl
 echo "Hello World" > /usr/share/nginx/html/index.html
 ```
-```sh
+```hcl
 exit
 ```
 ### Pods Details
-```sh
+```hcl
 kubectl get pods -o wide
 ```
 ### Testing Application
-```sh
+```hcl
 curl `<ip>`
 ```
 ### Delete pod
-```sh
+```hcl
 kubectl delete pod mypod
 ```
 ### Verify Deletion
-```sh
+```hcl
 kubectl get pods
 ```
 ### Check Persistent Data - (Go to PV storage directory)
-```sh
+```hcl
 cd /mnt/data
 ```
 ### List Files
-```sh
+```hcl
 ls
 ```
 ### View file content - (Confirms data persistence after pod deletion)
-```sh
+```hcl
 cat index.html
 ```
 ### Exit
-```sh
+```hcl
 cd
 ```
 ---
 ### Recreate Pod - `Metadata name is change`
-```sh
+```hcl
 nano pod.yaml
 ```
-```sh
+```hcl
 apiVersion: v1
 kind: Pod
 metadata:
@@ -181,31 +181,31 @@ spec:
       claimName: pvc-example
 ```
 ### Recreate Pod Apply 
-```sh
+```hcl
 kubectl apply -f pod.yaml
 ```
 ### Check Pod
-```sh
+```hcl
 kubectl get pods
 ```
 ### Check All pods
-```sh
+```hcl
 kubectl get pods -o wide
 ```
 ### Test Again
-```sh
+```hcl
 curl `<ip>`
 ```
 ---
 ### Check Disk Space Usage
-```sh
+```hcl
 df -hT
 ```
 --- 
 
 ## **1. Persistent Volume (PV)**
 ### **Example: Persistent Volume (PV)**
-```yaml
+```hcl
 apiVersion: v1   # API version used for PersistentVolume resource
 kind: PersistentVolume   # Declares this manifest as a PersistentVolume (PV)
 metadata: 
@@ -244,7 +244,7 @@ spec:
 
 ## For NFS (Network File System)
 
-```yaml
+```hcl
 apiVersion: v1
 kind: PersistentVolume
 metadata:
@@ -263,7 +263,7 @@ spec:
 
 ## For EBS (Elastic Block Store)
 
-```yaml
+```hcl
 apiVersion: v1
 kind: PersistentVolume
 metadata:
@@ -284,7 +284,7 @@ spec:
  
  ## 2. Persistent Volume Claim (PVC)
 
- ```yaml
+```hcl
 apiVersion: v1   # API version for PersistentVolumeClaim resource
 kind: PersistentVolumeClaim   # Declares this manifest as a PVC
 metadata: 
@@ -306,7 +306,7 @@ spec:
 
 
 ## 3. Pod Using PVC
-```yaml
+```hcl
 apiVersion: v1   # API version for Pod resource
 kind: Pod        # Declares this manifest as a Pod
 metadata: 
