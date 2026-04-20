@@ -172,31 +172,41 @@ Plan → Code → Build → Test → Release → Deploy → Operate → Monitor
                  ▼
             👨‍💻 Developer
 ```
-## 🔹 Architecture Explanation
-**1. Version Control**
- - Code stored in Git repositories
- - Tools: `GitHub, GitLab`
+## 🔹 Layer-wise Explanation
+**1️⃣ Source Code Management**
+ - Code stored & version controlled using
+`GitHub / GitLab`
 
-**2. CI/CD Pipeline**
- - Automates build, test, deployment
+**2️⃣ CI/CD Pipeline**
+ - Automates build, test, deploy
  - Tools: `Jenkins, GitHub Actions`
 
-**3. Build & Code Quality**
- - Compile code + run tests
- -  Code scanning using `SonarQube`
+**3️⃣ Build, Test & Code Quality**
+ - Compile code
+ - Run automated tests
+ - Code analysis using `SonarQube`
 
-**4. Containerization**
- - Package application using `Docker`
+**4️⃣ Containerization**
+ - Package app into containers using
+`Docker`
 
-**5. Container Registry**
- - Store Docker images (Docker Hub / private registry)
+**5️⃣ Container Registry**
+ - Store images (Docker Hub / private registry)
 
-**6. Orchestration**
- - Deploy and manage containers using `Kubernetes`
+**6️⃣ Infrastructure as Code (IaC)**
+ - Provision infra using
+`Terraform`
 
-**7. Infrastructure as Code**
- - Automate infra using `Terraform`
+**7️⃣ Container Orchestration**
+ - Manage deployments with
+`Kubernetes`
 
-**8. Monitoring & Logging**
- - Track performance using `Datadog` and `Grafana`
+**8️⃣ Networking Layer**
+ - Services + Ingress + Load Balancer
+ - Exposes application to users
+
+**9️⃣ Monitoring & Logging**
+ - Track performance using
+`Datadog, Grafana`
+
 ---
