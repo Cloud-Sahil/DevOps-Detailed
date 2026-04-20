@@ -1,4 +1,5 @@
 # <img src="https://cdn.simpleicons.org/kubernetes" width="40" /> Kuberneties (K8S)
+ - Open Sources
 ---
 ## 🔹 Introduction to Kubernetes
 
