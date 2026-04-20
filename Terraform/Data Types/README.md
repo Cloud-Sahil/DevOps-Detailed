@@ -87,7 +87,7 @@ variable "unique_ips" {
 ```hcl
 ["10.0.0.1", "10.0.0.2"]
 ```
- - No indexing (cannot use [0])
+ - No indexing (cannot use `[0]`)
 # 8. null
 
 Represents absence of a value
@@ -99,8 +99,8 @@ variable "description" {
 ```
  - Useful when:
 
-     - You want to skip a value
-     - Let Terraform use default behavior
+     - You want to **skip a value**
+     - Let Terraform use **default behavior**
 
 Example:
 ```hcl
