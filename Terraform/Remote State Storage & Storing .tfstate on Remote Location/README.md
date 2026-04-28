@@ -78,3 +78,18 @@ resource "aws_instance" "web" {
   }
 }
 ```
+```sh
+terraform init
+```
+```sh
+terraform fmt
+```
+```sh
+terraform plan
+```
+```sh
+terraform apply --auto-approve
+```
+```sh
+terraform destroy --auto-approve  # `Do not use this commands in company`
+```
