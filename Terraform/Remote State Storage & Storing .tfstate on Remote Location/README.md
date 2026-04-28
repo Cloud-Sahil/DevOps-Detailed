@@ -35,3 +35,46 @@ wget -O - https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/sh
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(grep -oP '(?<=UBUNTU_CODENAME=).*' /etc/os-release || lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
 sudo apt update && sudo apt install terraform
 ```
+### 6. Create Key
+```sh
+nano <place your key>
+```
+```sh
+<key content>
+```
+### Create tf.file
+```sh
+provider "aws" {
+  region = "ap-northeast-1" # region 
+}
+
+resource "aws_instance" "web" {
+  ami           = "ami-0f8faa29480e7e6de"  # # Your Ami ID
+  instance_type = "t3.micro"
+  key_name = "abc"  # Your Key name
+  provisioner "local-exec" {
+    command = "touch abc"
+  }
+
+  provisioner "file" {
+    source      = "nginx.sh"
+    destination = "/home/ubuntu/nginx.sh"
+  }
+
+  connection {
+    type        = "ssh"
+    user        = "ubuntu"
+    private_key = file("abc") # Your Key name
+    host        = self.public_ip
+  }
+  provisioner "remote-exec" {
+    inline = [
+      "chmod +x /home/ubuntu/nginx.sh",
+      "bash /home/ubuntu/nginx.sh"
+    ]
+  }
+  tags = {
+    Name = "WebServer"
+  }
+}
+```
