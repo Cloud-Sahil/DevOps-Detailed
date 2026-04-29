@@ -1,6 +1,6 @@
 # <img src="https://cdn.simpleicons.org/jenkins" width="40" /> Jenkins
 ---
-##  Introduction to Jenkins
+##  🧰 Introduction to Jenkins
 
 ### What is Jenkins?
 Jenkins is an open-source automation server widely used for:
