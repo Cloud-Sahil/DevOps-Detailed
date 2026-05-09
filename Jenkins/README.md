@@ -1,5 +1,5 @@
 # <img src="https://cdn.simpleicons.org/jenkins" width="40" /> Jenkins
- - Java Base tool
+ - Java Base Tool
 ---
 ##  🧰 Introduction to Jenkins
 
