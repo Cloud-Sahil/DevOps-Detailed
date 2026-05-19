@@ -57,16 +57,16 @@ aws configure
 
 **5:Create Amazon EKS cluster using eksctl**
 ````
-eksctl create cluster --name eks-cdec-b66 --region ap-south-1 --version 1.35 --nodegroup-name linux-nodes --node-type c7i-flex.large --nodes 1
+eksctl create cluster --name k8s --region ap-south-1 --version 1.35 --nodegroup-name linux-nodes --node-type c7i-flex.large --nodes 1
 ````
 **6: Log In Into EKS cluster**
 ````
-aws eks update-kubeconfig --name eks-cdec-b66
+aws eks update-kubeconfig --name k8s
 ````
 
 
 **7: Delete EKS Cluster**
 ````
-eksctl delete cluster --name eks-cdec-b66 --region ap-south-1
+eksctl delete cluster --name k8s --region ap-south-1
 ````
 ---
