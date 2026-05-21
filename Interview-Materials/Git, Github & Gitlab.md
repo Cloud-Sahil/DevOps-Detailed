@@ -1,8 +1,6 @@
 # 🚀 Git, GitHub & GitLab — Complete Interview Guide
 
 > **Covers:** Basics · Branching · Advanced Commands · Workflows · GitHub/GitLab · Scenarios · Shell Scripts · Best Practices
-> **Duplicates removed** — clean, modular, interview-ready.
-
 ---
 
 ## 📁 Table of Contents
