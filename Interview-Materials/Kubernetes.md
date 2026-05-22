@@ -1,3 +1,8 @@
+# ☸️ Kubernetes  — Complete Interview Guide
+
+> **Covers:** Troubleshooting · Scaling · Security · Networking · Storage · Monitoring · Scenarios
+
+---
 # what is k8s?
 Kubernetes (often called K8s) is an open-source container orchestration platform used to automate deployment, scaling, and management of containerized applications.
 
@@ -26,12 +31,6 @@ Worker Nodes                   Worker Nodes
    │                               │
 Containers                     Pods (Containers)
 ```
-# ☸️ Kubernetes & Docker — Complete Interview Guide
-
-> **Covers:** Troubleshooting · Scaling · Security · Networking · Storage · Monitoring · Scenarios
-> **Duplicates removed** · All answers in English · Modular sections
-
----
 
 ## 📁 Table of Contents
 
@@ -48,23 +47,6 @@ Containers                     Pods (Containers)
 | 9 | [Disaster Recovery](#9-disaster-recovery) | Backup, restore, multi-env |
 | 10 | [Docker Specific](#10-docker-specific) | Image issues, networking, local vs K8s |
 | 11 | [Scenario-Based Questions](#11-scenario-based-questions) | 35 real-world scenarios with answers |
-
----
-
-## Duplicates Removed
-
-The following 8 overlapping questions were merged into single comprehensive answers:
-
-| Removed (duplicate) | Merged into |
-|---------------------|-------------|
-| "pods restart continuously" | Pod Troubleshooting (Q1) |
-| "Docker containers exit immediately" | CrashLoopBackOff (Q4) |
-| "Docker networking fails between containers" | Networking (Q9) |
-| "ImagePullBackOff occurs in production" | Image pull errors (Q16) |
-| "ingress suddenly stops routing traffic" | Ingress troubleshooting (Q18) |
-| "PVC remains stuck in Pending state" | Storage failures (Q10) |
-| "rolling deployment causes temporary downtime" | Rolling updates (Q13) |
-| "manage zero-downtime deployments" | Rolling updates (Q13) |
 
 ---
 
