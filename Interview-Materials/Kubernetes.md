@@ -1,8 +1,4 @@
-# ☸️ Kubernetes & Docker — Complete Interview Guide
-
-> **Language coverage:** `Shell (Bash)` · `HCL` · `YAML`
-> **Duplicates removed** · All answers in English · Modular sections · Production-ready
-
+# ☸️ Kubernetes  — Complete Interview Guide
 ---
 
 ## 📁 Table of Contents
