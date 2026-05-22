@@ -397,5 +397,6 @@ GitHub supports authentication using **HTTPS** and **SSH**.
    ```
 
 ---
-# 
-https://www.geeksforgeeks.org/git/git-introduction/
+#  - **Follow official documentation**
+
+👉 https://www.geeksforgeeks.org/git/git-introduction/
