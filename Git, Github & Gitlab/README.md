@@ -400,3 +400,9 @@ GitHub supports authentication using **HTTPS** and **SSH**.
 ##  - **Follow official documentation**
 
 👉 https://www.geeksforgeeks.org/git/git-introduction/
+## - **Follow official documentation**
+
+👉 https://www.geeksforgeeks.org/git/introduction-to-github/
+## - **Follow official documentation**
+
+👉 https://www.geeksforgeeks.org/devops/gitlab/
