@@ -3,7 +3,7 @@
 > **Covers:** Troubleshooting · Scaling · Security · Networking · Storage · Monitoring · Scenarios
 
 ---
-# what is k8s?
+# What is k8s?
 Kubernetes (often called K8s) is an open-source container orchestration platform used to automate deployment, scaling, and management of containerized applications.
 
 # Difference between Docker swarm Vs k8s
