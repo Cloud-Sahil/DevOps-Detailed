@@ -43,8 +43,7 @@ Code → Build → Test → Quality Check → Deploy → Monitor → Feedback
 
 📊 **Monitoring & Logging**
  - Datadog
- - Prometheus
- - Grafana
+ - Grafana & Prometheus
 
 ☁️ **Cloud (Learning)**
  - AWS
