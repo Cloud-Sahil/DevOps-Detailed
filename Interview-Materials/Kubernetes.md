@@ -3014,11 +3014,3 @@ kubectl get secrets -A                        # list secrets
 ```
 
 ---
-
-*© Kubernetes & Docker Complete Interview Guide*
-*Duplicates removed · 35+ scenarios · All answers in English · Production-ready*
-MDEOF
-echo "Done! Lines: $(wc -l < /mnt/user-data/outputs/Kubernetes-Docker-Complete-Guide.md)"
-Output
-
-Done! Lines: 2991
