@@ -26,24 +26,6 @@
 
 ---
 
-## Duplicate Questions Removed
-
-8 semantic duplicates merged into single comprehensive answers:
-
-| Removed (duplicate) | Merged into |
-|---------------------|-------------|
-| "pods restart continuously" | Q1 — Pod Troubleshooting |
-| "Docker containers exit immediately" | Q2 — CrashLoopBackOff |
-| "Docker networking fails between containers" | Q9 — Networking |
-| "ImagePullBackOff occurs in production" | Q16 — Image pull errors |
-| "ingress suddenly stops routing traffic" | Q17 — Ingress troubleshooting |
-| "PVC remains stuck in Pending state" | Q19 — Storage failures |
-| "rolling deployment causes temporary downtime" | Q8 — Rolling updates |
-| "manage zero-downtime deployments" | Q8 — Rolling updates |
-
-**Image analysis:** 235 unique images extracted from 3 zip files — 0 duplicates found.
-
----
 
 ## 1. What is Kubernetes?
 
