@@ -154,3 +154,6 @@ Terraform has multiple **blocks** (building units):
 | **Example** | Create EC2, S3 inside AWS only | Create AWS EC2 + Azure VM + GCP storage together |
 
 ---
+  ## - **Follow official documentation**
+
+👉 https://www.geeksforgeeks.org/devops/what-is-terraform/
