@@ -1,7 +1,5 @@
 # 🏗️ Terraform — Complete Interview Guide
 
-> **Language:** `HCL` · `Shell (Bash)` · `YAML` 
-
 ---
 
 ## 📁 Table of Contents
