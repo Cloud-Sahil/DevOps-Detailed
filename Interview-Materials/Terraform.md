@@ -2425,6 +2425,3 @@ terraform version                   # Show version
 
 ---
 
-*© Terraform Complete Interview Guide*
-*16 duplicates removed · 55 questions + 55 scenarios · HCL + Shell + YAML*
-MDEOF
