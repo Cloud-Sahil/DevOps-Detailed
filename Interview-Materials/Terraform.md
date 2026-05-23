@@ -1,7 +1,6 @@
 # 🏗️ Terraform — Complete Interview Guide
 
-> **Language:** `HCL` · `Shell (Bash)` · `YAML`  
-> **16 duplicates removed** · All answers in English · Modular · Production-ready
+> **Language:** `HCL` · `Shell (Bash)` · `YAML` 
 
 ---
 
@@ -24,28 +23,6 @@
 
 ---
 
-## Duplicates Removed (16 merged)
-
-| Removed from Doc2 | Merged into |
-|-------------------|-------------|
-| "What is Terraform" | Q1 — Terraform overview |
-| "Terraform State" | Q8 — State management |
-| "Local vs Remote State" | Q11 — Remote state |
-| "Why Remote State is Important" | Q11 — Remote state |
-| "What is State Locking" | Q12 — State locking |
-| "Terraform Modules" | Q17 — Modules |
-| "Managing Multiple Environments" | Q27 — Environment strategies |
-| "Terraform Plan vs Apply" | Q7 — plan command |
-| "Terraform Lifecycle Rules" | Q29 — lifecycle block |
-| "apply failed — check first" | Scenario 1 |
-| "resource recreated unexpectedly" | Scenario 8 |
-| "drift detected" | Scenario 16 |
-| "plan shows unexpected changes" | Scenario 8 |
-| "secrets exposed in code" | Scenario 14 |
-| "backend locking issue" | Scenario 4 |
-| "state file too large" | Scenario 10 |
-
----
 
 ## 1. What is Terraform
 
