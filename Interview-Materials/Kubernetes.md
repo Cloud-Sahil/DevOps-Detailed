@@ -22,26 +22,6 @@
 
 ---
 
-## Duplicates Removed (14 merged)
-
-| Removed | Merged into |
-|---------|-------------|
-| "What is Kubernetes" (doc2) | Section 1 — Overview |
-| "Pod troubleshooting" (doc2) | Scenario 1-2 + Section 3 |
-| "Readiness probe fails" (doc2) | Q33 — Probes |
-| "HPA not scaling" (doc2) | Q18 — HPA |
-| "Zero-downtime deployments" (doc2) | Q11 — Deployment + Scenario 55 |
-| "Blue-green deployment" (doc2) | Scenario 63 |
-| "Rollout stuck/rollback" (doc2) | Scenario 48 |
-| "Node failure/NotReady" (doc2) | Scenario 50 + Q12-13 |
-| "Networking issues/CoreDNS/overlay" (doc2) | Section 4 |
-| "Service internal/external" (doc2) | Q21 — Services |
-| "Storage failures/PVC pending" (doc2) | Section 5 |
-| "RBAC/secrets" (doc2) | Section 6 |
-| "ConfigMap not reflected" (doc2) | Q28 — ConfigMap |
-| "ImagePullBackOff" (doc2) | Scenario 61 |
-
----
 
 ## 1. What is Kubernetes
 
