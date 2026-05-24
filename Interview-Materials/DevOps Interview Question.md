@@ -524,6 +524,3 @@ journalctl -u jenkins
 5. Practice scenario-based questions
 
 ---
-
-# End of Guide
-
