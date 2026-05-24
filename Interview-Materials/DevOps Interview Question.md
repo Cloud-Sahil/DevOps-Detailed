@@ -435,33 +435,7 @@ journalctl --vacuum-time=7d
 
 # 9. Architecture Diagrams
 
-## Terraform Fundamentals
-![Terraform Fundamentals](images/WhatsApp%20Image%202026-05-24%20at%2010.49.21%20AM.jpeg)
-
----
-
-## Terraform Workflow
-![Terraform Workflow](images/WhatsApp%20Image%202026-05-24%20at%2010.49.21%20AM%20%281%29.jpeg)
-
----
-
-## Kubernetes Production Problems
-![Kubernetes Problems](images/WhatsApp%20Image%202026-05-24%20at%2010.49.23%20AM.jpeg)
-
----
-
-## Why Containers Fail in Production
-![Container Failure](images/WhatsApp%20Image%202026-05-24%20at%2010.49.23%20AM%20%281%29.jpeg)
-
----
-
-## CI/CD Pipeline Architecture
-![CI/CD Pipeline](images/WhatsApp%20Image%202026-05-24%20at%2010.49.23%20AM%20%282%29.jpeg)
-
----
-
-## Observability Architecture
-![Observability](images/WhatsApp%20Image%202026-05-24%20at%2010.49.25%20AM.jpeg)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/2a18c5d3-9e79-4436-9dc3-fdee74fe39a5" />
 
 ---
 
