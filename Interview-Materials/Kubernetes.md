@@ -2788,6 +2788,4 @@ Permissions?     kubectl exec pod -- ls -la /data
 ```
 
 ---
-s · Shell + YAML + HCL*
-MDEOF
-echo "Done! Lines: $(wc -l < /mnt/user-data/outputs/Kubernetes-Complete-Guide.md)"
+
