@@ -1,8 +1,5 @@
 # ☸️ Kubernetes — Complete Interview Guide
 
-> **Languages:** `Shell (Bash)` · `YAML` · `HCL`
-> **14 duplicates removed** · Simple → Advanced → Scenario-Based · Production-ready
-
 ---
 
 ## 📁 Table of Contents
