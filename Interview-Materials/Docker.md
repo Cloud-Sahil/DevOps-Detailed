@@ -2,7 +2,6 @@
 # 🐳 Docker — Complete Interview Guide
 
 > **Simple → Advanced → Scenario-Based**
-> All answers in English · Modular · Production-ready
 
 ---
 
