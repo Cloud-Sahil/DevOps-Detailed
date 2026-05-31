@@ -101,7 +101,6 @@ Jenkins is an **open-source automation server** written in Java, used to automat
 |----------|-------|
 | **Type** | Automation Server |
 | **Language** | Java |
-| **License** | MIT |
 | **First Release** | 2004 (as Hudson), renamed Jenkins 2011 |
 | **Current** | Jenkins 2.x LTS |
 | **Plugins** | 1,800+ |
