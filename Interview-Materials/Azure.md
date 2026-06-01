@@ -1,8 +1,7 @@
 # Microsoft Azure — Interview Questions
 
 > **Coverage:** Simple · Advantage-Based · Scenario-Based  
-> **Total Questions:** 45  
-> **Level:** Beginner → Production Engineer
+
 
 ---
 
