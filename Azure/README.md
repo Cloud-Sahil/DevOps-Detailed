@@ -1272,4 +1272,3 @@ Free tier VM must be Stopped (Deallocated) to stop compute billing:
 
 ---
 
-*Happy Cloud Learning! ☁️ — portal.azure.com — learn.microsoft.com*
