@@ -2,7 +2,6 @@
 
 > **Track:** Cloud Computing | **Level:** Beginner → Advanced  
 > **Covers:** Account Setup · Core Infrastructure · VMs · Storage · Networking · Security  
-> **Last Updated:** May 2026
 
 ---
 
