@@ -1,5 +1,4 @@
 # 🎯 Datadog — Interview Questions
-> Simple → Medium → Advanced → Scenario-Based | 50 Questions Total
 
 ---
 
