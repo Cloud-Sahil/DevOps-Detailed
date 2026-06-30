@@ -1,10 +1,6 @@
 # DevOps Mastery — Complete Interview Question Bank
 ### Git · GitHub · GitLab · Python · Shell Scripting · Docker · Kubernetes · Jenkins · Terraform · Networking · Azure · Prometheus · Grafana · Datadog · SonarQube · Trivy
 
-> **Coverage:** Fresher (0 yrs) → Architect (15–20+ yrs). Every tool covers Beginner, Intermediate, Advanced, and Scenario-Based questions so anyone — from a first interview to a Principal DevOps Engineer panel — can use this as a single reference.
->
-> **How to use this file:** Each tool is a self-contained module. Jump to any section using the Table of Contents. Scenario questions are marked 🎯 and are designed to test real production judgment, not memorized definitions.
-
 ---
 
 ## 📑 Table of Contents
