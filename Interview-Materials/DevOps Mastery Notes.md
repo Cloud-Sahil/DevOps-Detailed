@@ -1,6 +1,4 @@
 # DevOps Mastery — Complete Interview Question Bank
-### Git · GitHub · GitLab · Python · Shell Scripting · Docker · Kubernetes · Jenkins · Terraform · Networking · Azure · Prometheus · Grafana · Datadog · SonarQube · Trivy
-
 ---
 
 ## 📑 Table of Contents
