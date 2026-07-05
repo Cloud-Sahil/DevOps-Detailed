@@ -1,7 +1,5 @@
 # GCP Interview Questions — Simple + Scenario-Based (170+ Questions)
 
-> A modular question bank combining quick-fire fundamentals with real-world scenario-based questions for GCP interviews — covering IAM, networking, compute, GKE, serverless, databases, load balancing, monitoring, cost, IaC/CI-CD, and cross-cloud comparison.
-
 ---
 
 ## Table of Contents
