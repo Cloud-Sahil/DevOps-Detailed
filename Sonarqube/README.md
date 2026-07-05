@@ -1,7 +1,5 @@
 # SonarQube Complete Study Guide
 
-> A complete, modular SonarQube study guide — architecture, installation, quality gates/profiles, scanners, rules/issues, security analysis, branch/PR analysis, CI/CD integration, administration, and performance — with diagrams and commands.
-
 ---
 
 ## Table of Contents
