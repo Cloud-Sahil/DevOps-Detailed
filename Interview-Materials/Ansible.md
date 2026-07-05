@@ -1,4 +1,4 @@
-# Ansible Interview Questions — Simple + Scenario-Based (155+ Questions)
+# Ansible Interview Questions 
 
 ---
 
