@@ -1,4 +1,4 @@
-# GCP Interview Questions — Simple + Scenario-Based (170+ Questions)
+# GCP Interview Questions 
 
 ---
 
