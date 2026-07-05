@@ -1,7 +1,4 @@
 # GCP Troubleshooting Guide
-
-> A modular, practical troubleshooting reference for Google Cloud Platform — organized by symptom/domain, with diagnostic commands, root-cause checklists, and resolution steps for Compute Engine, GKE, networking, IAM, storage, databases, Cloud Run/Functions, and billing.
-
 ---
 
 ## Table of Contents
