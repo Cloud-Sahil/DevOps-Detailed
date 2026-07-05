@@ -1,7 +1,4 @@
 # GCP Complete Study Guide
-
-> A complete, modular Google Cloud Platform study guide — architecture, IAM, networking (VPC), compute (GCE/GKE/Cloud Run/Cloud Functions), storage, databases, load balancing, security, monitoring, cost optimization, and Infrastructure as Code — with diagrams and `gcloud`/Terraform commands.
-
 ---
 
 ## Table of Contents
