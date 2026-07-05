@@ -1,7 +1,4 @@
 # Ansible Complete Study Guide
-
-> A complete, modular Ansible study guide — architecture, inventory, playbooks, variables, modules, roles, templating, vault, error handling, cloud integration, and AWX/Tower — with diagrams and commands.
-
 ---
 
 ## Table of Contents
