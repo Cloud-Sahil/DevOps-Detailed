@@ -1,7 +1,4 @@
 # Ansible Troubleshooting Guide
-
-> A modular, practical troubleshooting reference for Ansible — organized by symptom/domain, with diagnostic commands, root-cause checklists, and resolution steps for connectivity, playbook execution, variables/templating, modules, performance, Vault, dynamic inventory, and AWX/Tower.
-
 ---
 
 ## Table of Contents
