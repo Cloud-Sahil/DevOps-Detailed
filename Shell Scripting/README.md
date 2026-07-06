@@ -1,7 +1,4 @@
 # Shell Scripting (Bash) Complete Study Guide
-
-> A complete, modular Bash/shell scripting study guide — fundamentals, variables, control flow, functions, arrays, string manipulation, text processing, process management, error handling, and advanced patterns — with diagrams and commands.
-
 ---
 
 ## Table of Contents
