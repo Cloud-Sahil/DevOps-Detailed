@@ -1,7 +1,4 @@
 # SonarQube Interview Questions — Simple + Scenario-Based (165+ Questions)
-
-> A modular question bank combining quick-fire fundamentals with real-world scenario-based questions for SonarQube interviews — covering architecture, installation, Quality Profiles/Gates, scanners, rules/issues, coverage, security analysis, branch/PR decoration, CI/CD integration, administration, and advanced real-world scenarios.
-
 ---
 
 ## Table of Contents
