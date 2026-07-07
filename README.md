@@ -1,255 +1,475 @@
-# 🚀 DevOps-Detailed
+# 🚀 DevOps Detailed
 
-<div align="center">
-
-![GitHub](https://img.shields.io/badge/Cloud-DevOps-blue)
-![Linux](https://img.shields.io/badge/Linux-Administration-red)
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
-![Docker](https://img.shields.io/badge/Docker-Container-blue)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5)
-![Terraform](https://img.shields.io/badge/Terraform-IaC-623CE4)
-![Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-red)
-![License](https://img.shields.io/badge/License-MIT-green)
-
-### 📚 A Complete Cloud, DevOps & Linux Learning Repository
-
-**From Beginner to Advanced | Hands-on Labs | Interview Preparation | Production Scenarios | Real-World Projects**
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/DevOps-Learning-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Cloud-AWS-orange?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Linux-Shell-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Kubernetes-K8s-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Terraform-IaC-purple?style=for-the-badge">
+</p>
 
 ---
 
-# 📖 About
+# 📖 About Repository
 
-**DevOps-Detailed** is a comprehensive learning repository designed for aspiring and experienced **Cloud Engineers, DevOps Engineers, Linux Administrators, SREs, Platform Engineers, and Infrastructure Engineers**.
+Welcome to **DevOps Detailed**.
 
-This repository provides structured documentation, interview questions, production-ready scenarios, troubleshooting guides, hands-on projects, architecture diagrams, and best practices covering the complete DevOps ecosystem.
+This repository contains well-organized notes, practical commands, real-world projects, interview questions, architecture diagrams, and hands-on tutorials covering DevOps, Cloud Computing, Linux Administration, AWS, CI/CD, Docker, Kubernetes, Infrastructure as Code, Monitoring, and Automation.
 
-Whether you are preparing for your first DevOps interview or aiming for a Product-Based Company, this repository serves as an all-in-one technical handbook. It follows a modular learning approach inspired by hands-on DevOps learning resources and modern cloud engineering practices. :contentReference[oaicite:0]{index=0}
+The main goal of this repository is to provide a **single learning resource** for beginners as well as experienced DevOps Engineers.
 
 ---
 
-# 🎯 Repository Goals
+# 🎯 Objectives
 
-- Master Linux Administration
-- Learn Cloud Computing
-- Become an AWS Cloud Engineer
-- Master DevOps Tools
-- Build Production-Level Projects
-- Crack Product-Based Company Interviews
-- Learn Infrastructure as Code
-- Understand Kubernetes & Containerization
-- Practice Real Production Scenarios
-- Improve Troubleshooting Skills
+- Learn DevOps from scratch
+- Build strong Linux fundamentals
+- Master AWS Cloud Services
+- Learn Docker & Kubernetes
+- Practice Infrastructure as Code
+- Build CI/CD Pipelines
+- Understand Monitoring & Logging
+- Prepare for DevOps Interviews
+- Work on Real-World Projects
+
+---
+
+# 📚 Table of Contents
+
+- Linux
+- Shell Scripting
+- Git & GitHub
+- Networking
+- AWS
+- Docker
+- Kubernetes
+- Terraform
+- Jenkins
+- Ansible
+- Maven
+- SonarQube
+- Nexus
+- Prometheus
+- Grafana
+- ELK Stack
+- ArgoCD
+- Helm
+- Nginx
+- Monitoring
+- DevOps Projects
+- Interview Questions
+- Architecture Diagrams
+- Troubleshooting
+- Cheat Sheets
+
+---
+
+# 🖥 Linux
+
+Topics Covered
+
+- Linux Basics
+- File System
+- Users & Groups
+- Permissions
+- Process Management
+- Services
+- Networking
+- Package Management
+- Storage
+- LVM
+- Cron Jobs
+- Systemctl
+- SSH
+- Logs
+- Troubleshooting
+- Interview Questions
+
+---
+
+# 📜 Shell Scripting
+
+Topics
+
+- Variables
+- Loops
+- Conditions
+- Functions
+- Arrays
+- File Handling
+- Automation Scripts
+- Practical Examples
+
+---
+
+# 🌿 Git & GitHub
+
+Topics
+
+- Git Basics
+- Branching
+- Merging
+- Rebase
+- Cherry Pick
+- Tags
+- GitHub Workflow
+- Pull Requests
+- Conflict Resolution
+
+---
+
+# ☁ AWS
+
+Services
+
+- IAM
+- EC2
+- VPC
+- S3
+- EBS
+- EFS
+- ELB
+- Auto Scaling
+- Route53
+- CloudWatch
+- SNS
+- SQS
+- Lambda
+- RDS
+- ECS
+- ECR
+- EKS
+- CloudFormation
+- AWS CLI
+
+---
+
+# 🐳 Docker
+
+Topics
+
+- Docker Installation
+- Images
+- Containers
+- Dockerfile
+- Volumes
+- Networks
+- Docker Compose
+- Best Practices
+- Troubleshooting
+
+---
+
+# ☸ Kubernetes
+
+Topics
+
+- Cluster Architecture
+- Pods
+- ReplicaSets
+- Deployments
+- Services
+- ConfigMaps
+- Secrets
+- StatefulSets
+- DaemonSets
+- Jobs
+- CronJobs
+- Ingress
+- Storage
+- RBAC
+- Helm
+- Troubleshooting
+
+---
+
+# 🌍 Terraform
+
+Topics
+
+- Providers
+- Variables
+- Outputs
+- Modules
+- State File
+- Backend
+- Remote State
+- Provisioners
+- AWS Infrastructure
+- Best Practices
+
+---
+
+# 🔄 Jenkins
+
+Topics
+
+- Installation
+- Pipelines
+- Declarative Pipeline
+- Scripted Pipeline
+- Agents
+- Credentials
+- Shared Libraries
+- Integration
+- CI/CD Projects
+
+---
+
+# ⚙ Ansible
+
+Topics
+
+- Inventory
+- Playbooks
+- Roles
+- Variables
+- Templates
+- Vault
+- Dynamic Inventory
+
+---
+
+# 📦 Maven
+
+Topics
+
+- Build Lifecycle
+- pom.xml
+- Plugins
+- Repository
+- Packaging
+
+---
+
+# 🔍 SonarQube
+
+Topics
+
+- Installation
+- Scanner
+- Code Analysis
+- Quality Gates
+- Jenkins Integration
+
+---
+
+# 📦 Nexus Repository
+
+Topics
+
+- Artifact Management
+- Maven Repository
+- Docker Registry
+- Integration
+
+---
+
+# 📊 Monitoring
+
+## Prometheus
+
+- Installation
+- Metrics
+- Exporters
+- Alertmanager
+
+## Grafana
+
+- Dashboards
+- Alerts
+- Data Sources
+
+---
+
+# 📑 Logging
+
+ELK Stack
+
+- Elasticsearch
+- Logstash
+- Kibana
+- Filebeat
+
+---
+
+# 🚀 GitOps
+
+Topics
+
+- ArgoCD
+- Helm Charts
+- Kubernetes Deployment
+- Sync Policies
+
+---
+
+# 🌐 Nginx
+
+Topics
+
+- Reverse Proxy
+- Load Balancer
+- SSL
+- Virtual Hosts
+
+---
+
+# 💼 DevOps Projects
+
+Projects Included
+
+- Static Website Deployment
+- Dockerized Applications
+- Jenkins CI/CD
+- Kubernetes Deployment
+- Terraform Infrastructure
+- AWS DevOps Pipeline
+- End-to-End DevOps Project
+
+---
+
+# 🏗 Architecture Diagrams
+
+Repository contains diagrams for
+
+- AWS Architecture
+- Kubernetes Architecture
+- Docker Architecture
+- CI/CD Workflow
+- Git Workflow
+- DevOps Lifecycle
+
+---
+
+# ❓ Interview Questions
+
+Includes
+
+- Linux
+- AWS
+- Docker
+- Kubernetes
+- Terraform
+- Jenkins
+- Git
+- Networking
+- Shell Scripting
+- DevOps Scenario-Based Questions
+
+---
+
+# 🛠 Troubleshooting
+
+Common Issues
+
+- Docker Errors
+- Kubernetes Errors
+- AWS Errors
+- Jenkins Errors
+- Terraform Errors
+- Linux Errors
+
+---
+
+# 📄 Cheat Sheets
+
+Available for
+
+- Linux Commands
+- Git Commands
+- Docker Commands
+- Kubernetes Commands
+- AWS CLI
+- Terraform
+- Jenkins
 
 ---
 
 # 📂 Repository Structure
 
 ```
-DevOps-Detailed
+DevOps-Detailed/
 │
-├── Linux
-├── Linux Administration
-├── Networking
-├── Shell Scripting
-│
-├── AWS
-│   ├── IAM
-│   ├── EC2
-│   ├── VPC
-│   ├── S3
-│   ├── RDS
-│   ├── Lambda
-│   ├── EKS
-│   ├── ECS
-│   ├── CloudWatch
-│   ├── Route53
-│   └── All AWS Services
-│
-├── Azure
-├── Google Cloud Platform (GCP)
-│
-├── Git
-├── GitHub
-├── GitLab
-│
-├── Docker
-├── Kubernetes
-├── Helm
-│
-├── Terraform
-├── Jenkins
-├── CI-CD
-├── Ansible
-│
-├── Python
-│
-├── Monitoring
-│   ├── Prometheus
-│   ├── Grafana
-│   ├── Datadog
-│   └── ELK
-│
-├── Security
-│   ├── SonarQube
-│   ├── Trivy
-│   └── DevSecOps
-│
-├── Mock Interviews
-├── HR Interviews
-├── Company Interview Questions
-├── Production Scenarios
-├── Troubleshooting
-├── Resume Guide
-└── Projects
+├── Linux/
+├── Shell-Scripting/
+├── Git-GitHub/
+├── Networking/
+├── AWS/
+├── Docker/
+├── Kubernetes/
+├── Terraform/
+├── Jenkins/
+├── Maven/
+├── SonarQube/
+├── Nexus/
+├── Prometheus/
+├── Grafana/
+├── ELK/
+├── Helm/
+├── ArgoCD/
+├── Nginx/
+├── Projects/
+├── Interview-Questions/
+├── Architecture/
+├── Troubleshooting/
+└── Cheat-Sheets/
 ```
 
 ---
 
-# 📚 Topics Covered
-
-- Linux
-- Linux Administration
-- Networking
-- Shell Scripting
-- AWS
-- Azure
-- GCP
-- Git
-- GitHub
-- GitLab
-- Docker
-- Kubernetes
-- Helm
-- Terraform
-- Jenkins
-- CI/CD
-- Python
-- Ansible
-- Prometheus
-- Grafana
-- Datadog
-- ELK Stack
-- SonarQube
-- Trivy
-- DevSecOps
-- Cloud Architecture
-- SRE
-- Platform Engineering
-
----
-
-# 💼 Interview Preparation
-
-✔ Beginner Questions
-
-✔ Intermediate Questions
-
-✔ Advanced Questions
-
-✔ Scenario-Based Questions
-
-✔ Production Support Questions
-
-✔ Troubleshooting Questions
-
-✔ Mock Interviews
-
-✔ HR Interviews
-
-✔ Product-Based Company Questions
-
-✔ Service-Based Company Questions
-
-✔ Latest Industry Questions (2026–2030)
-
----
-
-# 🔥 Repository Highlights
-
-- Modular Documentation
-- Production-Ready Examples
-- Real-World Scenarios
-- Architecture Diagrams
-- Best Practices
-- Hands-on Labs
-- Interview Notes
-- Cheat Sheets
-- Troubleshooting Guides
-- Project Documentation
-
----
-
-# 🎯 Target Audience
+# 🎓 Who is this Repository for?
 
 - Students
 - Freshers
-- Linux Administrators
-- Cloud Engineers
 - DevOps Engineers
-- Platform Engineers
-- SRE Engineers
-- Infrastructure Engineers
-- Automation Engineers
+- Cloud Engineers
+- System Administrators
+- Site Reliability Engineers (SRE)
 
 ---
 
-# ⭐ Learning Path
+# 🤝 Contribution
 
-```
-Linux
-      ↓
-Networking
-      ↓
-Shell Scripting
-      ↓
-Git & GitHub
-      ↓
-Docker
-      ↓
-Kubernetes
-      ↓
-AWS / Azure / GCP
-      ↓
-Terraform
-      ↓
-Ansible
-      ↓
-Jenkins
-      ↓
-CI/CD
-      ↓
-Monitoring
-      ↓
-DevSecOps
-      ↓
-Production Projects
-```
+Contributions are always welcome.
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to your branch
+5. Open a Pull Request
 
 ---
 
-# 🤝 Contributions
+# ⭐ Support
 
-Contributions are welcome!
+If you find this repository useful:
 
-- Fork the repository
-- Create a new branch
-- Commit your changes
-- Open a Pull Request
+⭐ Star the repository
 
----
+🍴 Fork the repository
 
-# 📄 License
-
-This repository is released under the **MIT License**.
+📢 Share it with others
 
 ---
 
-<div align="center">
+# 📜 License
 
-## ⭐ If this repository helps you, don't forget to Star it!
+This project is licensed under the MIT License.
 
-**Happy Learning 🚀**
+---
 
-</div>
+# 👨‍💻 Author
+
+**Sahil Ubhe**
+
+Cloud & DevOps Engineer
+
+GitHub:
+https://github.com/Cloud-Sahil
+
+---
+
+# ❤️ Happy Learning
+
+> "Learn • Practice • Automate • Deploy • Repeat"
