@@ -1,7 +1,4 @@
-# Shell Scripting Interview Questions — Simple + Scenario-Based (160+ Questions)
-
-> A modular question bank combining quick-fire fundamentals with real-world scenario-based questions for Shell/Bash scripting interviews — covering fundamentals, variables, conditionals, loops, functions, arrays, string manipulation, text processing (grep/sed/awk), process management, error handling, and advanced real-world scenarios.
-
+# Shell Scripting Interview Questions 
 ---
 
 ## Table of Contents
