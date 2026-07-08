@@ -1,7 +1,5 @@
 # Prometheus Complete Study Guide
 
-> A complete, modular Prometheus study guide — architecture, data model, PromQL, service discovery, exporters, recording/alerting rules, Alertmanager, federation/remote write, storage internals, high availability (Thanos/Mimir/Cortex), security, and performance — with diagrams and commands.
-
 ---
 
 ## Table of Contents
