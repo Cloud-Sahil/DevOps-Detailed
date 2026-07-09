@@ -1,4 +1,4 @@
-# Prometheus Interview Questions — Simple + Scenario-Based (162+ Questions)
+# Prometheus Interview Questions
 
 ---
 
